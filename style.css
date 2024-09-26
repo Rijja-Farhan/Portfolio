@@ -1,80 +1,79 @@
-body{
-    margin:0px;
+body {
+  margin: 0;
 }
+
 header {
-    background-color: #3d3d3d;
-    color: white;
-    padding: 5px 10px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-#Logo{
-    margin-left: 30px;
+  background-color: #3d3d3d;
+  color: white;
+  padding: 5px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-/*css for nav bar links*/
+#Logo {
+  margin-left: 30px;
+}
+
+/* css for nav bar links */
 nav ul {
-    list-style-type: none;
-   display: flex;
-   flex-direction: row;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
 }
+
 nav ul li {
-    margin-left: 20px;
+  margin-left: 20px;
 }
+
 nav ul li a {
-    text-decoration: none;
-    color: white;
-    font-size: 16px;
-    font-weight: bold;
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
 }
 
-/*css for headline section*/
-main{
-    display: flex;
-    flex-direction: row;
-    background-color: black
-    
-}
-/*css for social media logos*/
-aside ul{
-    list-style-type: none;
-    position: fixed;
-    left: 0;
-    top: 50%;
-   
-    
-
-}
-aside ul li a{
-    text-decoration: none;
-    color: white;
-    font-size: 16px;
-    font-weight: bold;
-    
-
+/* css for headline section */
+main {
+  display: flex;
+  flex-direction: row;
+  background-color: black;
 }
 
-
-/*css for headline text*/
-section h1{
-    color: orange;
-    font-size: 50px;
-    margin-left: 100px;
-    padding-top: 100px;
-    max-width: 250px;
-
-}
-section h3{
-    color: white;
-    margin-left: 100px;
+/* css for social media logos */
+aside ul {
+  list-style-type: none;
+  position: fixed;
+  left: 0;
+  top: 50%;
 }
 
-section p{
-    color: white;
-    margin-left: 100px;
-    max-width: 500px;
+aside ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
 }
-#illustration{
-   margin-left:420px;
+
+section h1 {
+  color: orange;
+  font-size: 50px;
+  margin-left: 100px;
+  padding-top: 100px;
+  max-width: 250px;
+}
+
+section h3 {
+  color: white;
+  margin-left: 100px;
+}
+
+section p {
+  color: white;
+  margin-left: 100px;
+  max-width: 500px;
+}
+
+#illustration {
+  margin-left: 420px;
 }
