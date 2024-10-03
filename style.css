@@ -1,91 +1,85 @@
 body {
-    margin: 0;
-    width: 378px;
-     
-    
+  margin: 0;
+  width: 378px;
 }
-  
-  header {
-    background-color: #3E3C3C;
-    color: white;
-    padding: 10px 15px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  #Logo {
-    font-size: 18px;
-    font-weight: bold;
-    font-family: 'Roboto', serif;
-  }
-  .nav-image {
-   padding: 8px;
-    width: 24px;
-    height: 24px;
-  }
-  
-  main {
-    background-color: #1C1A19;
-    background-image: url("./Images/Headlineillustration.png");
-    background-position: 235px 317px;
-    background-repeat: no-repeat;
-    background-size: 261.83px 280.89px; 
-    padding: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    height: 100vh;
-  
-  }
-  
-   
-  #intro {
-    text-align: left;
-    max-width: 320px; 
-  }
-  
-  #intro h1 {
-    color: #F55800;
-    font-size: 56px; 
-    font-weight: 400pc;
-    line-height: 1.2;
-    margin-bottom: 10px;
-    font-family: 'Crete Round', serif;
-  }
-  
-  #intro h3 {
-    color: white;
-    font-size: 24px;
-    font-weight: 700px;
-    line-height: 32px;
-    margin-bottom: 15px;
-    font-family: 'Roboto', sans-serif;
-  }
-  
-  #intro p {
-    color: white;
-    font-size: 16px;
-    font-weight: 400px;
-    line-height: 24px;
 
-    font-family: 'Poppins', sans-serif;
-  }
-  
-  #social-icons {
-    display: flex;
-    gap: 15px;
-    width: 200px;
-    height: 40px;
-  }
-  
-  #social-icons img {
-
-    width: 24px;
-    height: 24px;
-    
-  }
-  #social-icons img:hover {
-    transform: scale(1.1); 
+header {
+  background-color: #3e3c3c;
+  color: white;
+  padding: 10px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-  
+
+#Logo {
+  font-size: 18px;
+  font-weight: bold;
+  font-family: 'Roboto', serif;
+}
+
+.nav-image {
+  padding: 8px;
+  width: 24px;
+  height: 24px;
+}
+
+main {
+  background-color: #1c1a19;
+  background-image: url("./Images/Headlineillustration.png");
+  background-position: 235px 317px;
+  background-repeat: no-repeat;
+  background-size: 261.83px 280.89px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100vh;
+}
+
+#intro {
+  text-align: left;
+  max-width: 320px;
+}
+
+#intro h1 {
+  color: #f55800;
+  font-size: 56px;
+  font-weight: 400pc;
+  line-height: 1.2;
+  margin-bottom: 10px;
+  font-family: 'Crete Round', serif;
+}
+
+#intro h3 {
+  color: white;
+  font-size: 24px;
+  font-weight: 700px;
+  line-height: 32px;
+  margin-bottom: 15px;
+  font-family: 'Roboto', sans-serif;
+}
+
+#intro p {
+  color: white;
+  font-size: 16px;
+  font-weight: 400px;
+  line-height: 24px;
+  font-family: 'Poppins', sans-serif;
+}
+
+#social-icons {
+  display: flex;
+  gap: 15px;
+  width: 200px;
+  height: 40px;
+}
+
+#social-icons img {
+  width: 24px;
+  height: 24px;
+}
+
+#social-icons img:hover {
+  transform: scale(1.1);
+}
