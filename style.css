@@ -1,6 +1,7 @@
 body {
   margin: 0;
-  width: 378px;
+  padding: 0;
+  width: 375px;
 }
 
 header {
@@ -20,26 +21,41 @@ header {
 
 .nav-image {
   padding: 8px;
-  width: 24px;
-  height: 24px;
+  width: 40px;
+  height: 40px;
 }
 
-main {
+/* main headline section */
+#intro {
+  text-align: left;
   background-color: #1c1a19;
   background-image: url("./Images/Headlineillustration.png");
-  background-position: 235px 317px;
+  background-position: 235px 400px;
   background-repeat: no-repeat;
   background-size: 261.83px 280.89px;
   padding: 20px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: flex-start;
   height: 100vh;
+  margin-bottom: 100px;
 }
 
-#intro {
+.Multipost-sec h1 {
+  font-family: 'Crete Round', serif;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 44px;
   text-align: left;
-  max-width: 320px;
+  margin-bottom: 0;
+}
+
+.card-content h1 {
+  font-family: 'Crete Round', serif;
+  font-size: 32px;
+  margin-bottom: 0;
+  line-height: 44px;
 }
 
 #intro h1 {
@@ -60,8 +76,18 @@ main {
   font-family: 'Roboto', sans-serif;
 }
 
+.card-content p {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  margin-top: 0;
+  width: 250px;
+  line-height: 24px;
+  text-align: left;
+}
+
 #intro p {
   color: white;
+  width: 327px;
   font-size: 16px;
   font-weight: 400px;
   line-height: 24px;
@@ -82,4 +108,229 @@ main {
 
 #social-icons img:hover {
   transform: scale(1.1);
+}
+
+#work {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.work-heading {
+  font-family: 'Crete Round', serif;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 52px;
+  text-align: left;
+}
+
+.horizontal-line {
+  width: 80%;
+  margin-bottom: 80px;
+}
+
+.project1 {
+  width: 327px;
+  height: 237px;
+}
+
+.Multipost-sec {
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+  width: 327px;
+  height: 307px;
+  gap: 12px;
+}
+
+.skills ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.skills ul li {
+  float: left;
+  border-style: solid;
+  border-color: #8993a4;
+  padding: 5px;
+  margin-right: 12px;
+  font-family: 'Inter', serif;
+}
+
+.seeproject-button {
+  background-color: #ff6b00;
+  width: 124px;
+  height: 48px;
+  border: none;
+  padding: 12px;
+  color: white;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+
+#projects {
+  padding-top: 8px;
+  padding-right: 16px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 100%;
+}
+
+.card {
+  background: url('./Images/projectsImage.png') no-repeat center;
+  background-size: 327px 386px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-content {
+  color: white;
+  padding: 20px;
+  align-content: left;
+  text-align: left;
+}
+
+.tags {
+  display: flex;
+  gap: 10px;
+}
+
+.tag {
+  color: white;
+  padding: 10px 15px;
+  border-radius: 0;
+  font-size: 14px;
+  background: #ffffff3d;
+}
+
+.projectButton {
+  background: #ff6b00;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+  font-weight: bold;
+  width: 298px;
+  margin-left: 8px;
+}
+
+#about-me {
+  background-color: #1c1a19;
+  display: flex;
+  flex-direction: column;
+  height: 563px;
+  top: 4137px;
+  padding: 120px 24px 120px 24px;
+}
+
+#about-me h1 {
+  font-family: "Crete Round", sans-serif;
+  margin-top: 0;
+  font-size: 72px;
+  font-weight: 400;
+  line-height: 88px;
+  letter-spacing: 0.3700000047683716px;
+  text-align: left;
+  color: #ff6b00;
+  margin-bottom: 0;
+}
+
+#about-me p {
+  width: 310px;
+  height: 148px;
+  color: white;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+}
+
+.getmyresume-button {
+  background-color: #ff6b00;
+  width: 156px;
+  height: 48px;
+  border: none;
+  padding: 12px;
+  color: white;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+
+.img-container {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: flex-start;
+  width: 350px;
+}
+
+.aboutme-img {
+  height: 270px;
+  width: 200px;
+}
+
+.aboutme-horizontal-line {
+  width: 85%;
+  color: white;
+}
+
+#skills {
+  display: flex;
+  flex-direction: column;
+  background-color: #1c1a19;
+  justify-content: center;
+  align-items: center;
+}
+
+#skills h1 {
+  color: white;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 30px;
+  text-align: center;
+  margin: 0;
+}
+
+.list-item {
+  padding-bottom: 20px;
+  padding-left: 20px;
+  color: white;
+  text-decoration: none;
+  list-style-type: none;
+  text-align: center;
+  font-size: 22px;
+}
+
+#skills ul {
+  padding: 0;
+  width: 260px;
+  height: 48px;
+  padding-bottom: 150px;
+}
+
+.skill-icon {
+  width: 18px;
+  height: 18px;
+  gap: 0;
+  opacity: 0;
+  padding-right: 10px;
+}
+
+.skills-headers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
