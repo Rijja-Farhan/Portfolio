@@ -26,14 +26,13 @@ header {
 }
 
 .nav-links {
-  list-style: none; /* Remove bullet points */
-  display: none; /* Hide by default */
-  padding: 0; /* Remove padding */
-  margin: 0; /* Remove margin */
-  flex-direction: row; /* Align items horizontally */
+  list-style: none;
+  display: none;
+  padding: 0;
+  margin: 0;
+  flex-direction: row;
 }
 
-/* main headline section */
 #intro {
   text-align: left;
   background-color: #1c1a19;
@@ -452,7 +451,7 @@ textarea:focus {
   }
 
   .nav-image {
-    display: none; /* Hide hamburger icon */
+    display: none;
   }
 
   #Logo {
@@ -460,18 +459,18 @@ textarea:focus {
   }
 
   .nav-links {
-    display: flex; /* Show nav links as a flex container */
+    display: flex;
     margin-right: 50px;
   }
 
   .nav-links li {
-    margin-left: 20px; /* Add spacing between links */
+    margin-left: 20px;
   }
 
   .nav-links a {
-    text-decoration: none; /* Remove underline */
-    color: white; /* Change link color */
-    font-weight: bold; /* Make links bold */
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
   }
 
   .email-icon {
@@ -502,9 +501,9 @@ textarea:focus {
   }
 
   .horizontal-line {
-    width: 80%; /* Sets the width of the line */
-    height: 1px; /* Sets the height of the line */
-    background-color: #000; /* Sets the color of the line */
+    width: 80%;
+    height: 1px;
+    background-color: #000;
     margin-top: 60px;
     border: none;
     margin-right: 30px;
@@ -529,13 +528,12 @@ textarea:focus {
     margin-top: 0;
   }
 
-  /* Center the grid and adjust the layout */
   .container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-content: center;
-    max-width: 1100px; /* Restrict grid width for larger screens */
-    margin: 0 auto; /* Center the grid within its container */
+    max-width: 1100px;
+    margin: 0 auto;
   }
 
   .card {
@@ -557,13 +555,13 @@ textarea:focus {
   .about-me-main-sec {
     display: flex;
     flex-direction: row;
-    justify-content: space-between; /* Ensures space between text and image */
-    align-items: center; /* Vertically center the items */
+    justify-content: space-between;
+    align-items: center;
     margin-left: 150px;
   }
 
   .aboutme-img {
-    content: url('./Images/AboutMeLargeImage.png'); /* Larger screen image */
+    content: url('./Images/AboutMeLargeImage.png');
     height: 352px;
     width: 672px;
   }
