@@ -116,6 +116,10 @@
     margin-right: 10px;
     width: 298px;
   }
+  .projectButton
+  {
+    margin-left: 11px; 
+  }
 
   #about-me {
     padding-right: 0;
