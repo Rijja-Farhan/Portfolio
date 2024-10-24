@@ -27,11 +27,34 @@
     margin-left: 100px;
   }
 
+  
   .nav-links {
-    display: flex;
-    margin-right: 50px;
+    display: flex; 
+    justify-content: flex-end; 
+    position: relative;
+    
+    top:0;
+    left: 30px; 
+     
+    
+    height: 10px; 
+    padding: 0 20px; 
+    
+   
+    align-items: center; 
+    
   }
 
+
+
+  .option-hr
+  {
+    display: none;
+  }
+  .close-btn 
+  {
+    display: none;
+  }
   .nav-links li {
     margin-left: 20px;
   }
@@ -40,7 +63,12 @@
     text-decoration: none;
     color: white;
     font-weight: bold;
+    font-size: 20px;
+    padding-bottom: 30px;
   }
+
+ 
+  
 
   .email-icon {
     width: 20px;
