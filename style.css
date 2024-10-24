@@ -20,16 +20,11 @@ header {
   font-weight: bold;
   font-family: 'Roboto', serif;
 }
-
 .nav-image {
   padding: 8px;
   width: 40px;
   height: 40px;
 }
-
-
-
-
 .nav-links {
   display: none;
   background-color: #3e3c3c;
@@ -40,12 +35,9 @@ header {
   height: 300px;
   padding-left: 20px;
 }
-
-
 .nav-links.active {
   display: block;
 }
-
 .close-btn {
   position: absolute;
   top: 10px;
@@ -54,22 +46,16 @@ header {
   color: grey;
   cursor: pointer;
 }
-
 .close-btn:hover {
   color: red; 
 }
-
-
 .nav-links li {
   list-style: none;
   margin-top:30px;
   margin-right:30px;
 }
-
-
 .nav-links a {
   text-decoration: none;
- 
   font-size: 18px;
   font-weight: bold;
   padding: 5px 0;
@@ -84,11 +70,6 @@ header {
 
 
 }
-
-
-
-
-
 .nav-links a:hover {
   color: #FFD700;
 }
@@ -100,16 +81,6 @@ header {
   height: 0px;
   color: grey;
 }
-
-
-
-
-
-
-
-
-
-
 
 .Multipost-sec h1 {
   font-family: 'Crete Round', serif;
