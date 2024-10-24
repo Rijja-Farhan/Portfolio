@@ -28,11 +28,65 @@ header {
 }
 
 .nav-links {
-  list-style: none;
   display: none;
-  padding: 0;
+  background-color: #3e3c3c;
+  position: absolute;
+  top: 60px;
+  left: 155px;
+  width: 200px;
+  height: 300px;
+  padding-left: 20px;
+}
+
+.nav-links.active {
+  display: block;
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 50px;
+  font-size: 20px;
+  color: grey;
+  cursor: pointer;
+}
+
+.close-btn:hover {
+  color: red;
+}
+
+.nav-links li {
+  list-style: none;
+  margin-top: 30px;
+  margin-right: 30px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  padding: 5px 0;
+  display: block;
+  position: relative;
+  font-family: 'Inter', serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #fff5e1;
+}
+
+.card-content a {
+  margin-left: 9px;
+}
+
+.nav-links a:hover {
+  color: #ffd700;
+}
+
+.option-hr {
   margin: 0;
-  flex-direction: row;
+  width: 150px;
+  height: 0;
+  color: rgb(149, 143, 143);
 }
 
 .Multipost-sec h1 {
@@ -225,10 +279,6 @@ header {
   padding-left: 20px;
 }
 
-.card-content a {
-  margin-left: 9px;
-}
-
 .tags {
   display: flex;
   gap: 10px;
@@ -250,7 +300,7 @@ header {
   text-decoration: none;
   font-weight: bold;
   width: 297px;
- margin-right: 9px;
+  margin-right: 9px;
   margin-top: 20px;
 }
 
