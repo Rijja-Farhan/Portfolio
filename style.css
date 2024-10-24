@@ -105,10 +105,9 @@ header {
   line-height: 44px;
   padding-left: 20px;
 }
-
 .card-content p {
   font-family: "Inter", sans-serif;
-  font-size: 16px;
+  font-size: 15px;
   margin-top: 0;
   width: 250px;
   line-height: 24px;
