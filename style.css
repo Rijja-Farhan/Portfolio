@@ -32,10 +32,12 @@ header {
   background-color: #3e3c3c;
   position: absolute;
   top: 60px;
-  left: 155px;
-  width: 200px;
-  height: 300px;
-  padding-left: 20px;
+  left: 0px;
+  width: 375px;
+  height: 100vh;
+  padding: 0px;
+  
+  
 }
 
 .nav-links.active {
@@ -72,6 +74,7 @@ header {
   font-size: 32px;
   line-height: 44px;
   color: #fff5e1;
+  margin-left: 30px;
 }
 
 .card-content a {
@@ -84,7 +87,8 @@ header {
 
 .option-hr {
   margin: 0;
-  width: 150px;
+  margin-left:30px ;
+  width: 300px;
   height: 0;
   color: rgb(149, 143, 143);
 }
